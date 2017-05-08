@@ -1,0 +1,46 @@
+/*Universal*/
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.pacifico-text {
+  font-family: 'Pacifico', cursive;
+}
+
+
+/*Header*/
+h1 {
+  font-size: 4em;
+  color: black;
+}
+/*Navbar*/
+.navbar{
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+  background-color: transparent;
+  color: black;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+  color: black;
+  background-color: transparent;
+  }
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+   color: black;
+  }
+.navbar-default .navbar-nav > li > a{
+  color: black;
+}
+.background-image{
+  background-image: url('../images/sunset.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*Jumbotron*/
+.jumbotron{
+  background-color: transparent;
+  text-align: center;
+}
