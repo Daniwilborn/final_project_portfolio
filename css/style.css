@@ -45,6 +45,14 @@ h1 {
   text-align: center;
 }
 img{
-  width: 400px;
+  width: 300px;
   border: 2px solid;
+}
+@keyframes picture {
+  from {height: 0px;}
+  to {height: 300px;}
+}
+
+.element {
+  animation: picture 1.5s ease-out none;
 }
