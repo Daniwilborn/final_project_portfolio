@@ -1,15 +1,18 @@
 /*Universal*/
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Taviraj');
 
 .pacifico-text {
   font-family: 'Pacifico', cursive;
 }
-
+.taviraj.text{
+  font-family:'Taviraj', serif;
+}
 
 /*Header*/
 h1 {
   font-size: 4em;
-  color: black;
+  color: white;
 }
 /*Navbar*/
 .navbar{
@@ -21,18 +24,18 @@ h1 {
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
   background-color: transparent;
-  color: black;
+  color: white;
 }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
-  color: black;
+  color: white;
   background-color: transparent;
   }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
-   color: black;
+   color: white;
   }
 .navbar-default .navbar-nav > li > a{
-  color: black;
+  color: white;
 }
 .background-image{
   background-image: url('../images/sunset.jpeg');
@@ -45,9 +48,11 @@ h1 {
   text-align: center;
 }
 img{
-  width: 300px;
-  border: 2px solid;
-}
+   width: 300px;
+   border: 2px solid;
+ }
+
+
 @keyframes picture {
   from {height: 0px;}
   to {height: 300px;}
@@ -55,4 +60,26 @@ img{
 
 .element {
   animation: picture 1.5s ease-out none;
+}
+/*About*/
+.panel {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family:'Taviraj', serif;
+  font-size: 20px;
+  text-shadow: 1.5px 1.5px rgba(0, 0, 0, 1);
+  margin-top: 30px;
+}
+.panel-title{
+  font-size: 30px;
+}
+.panel-default > .panel-heading{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family:'Taviraj', serif;
+}
+.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body{
+  border: none;
 }
