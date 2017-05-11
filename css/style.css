@@ -8,6 +8,10 @@
   }
 }
 
+.background-image{
+  min-height: 100vh;
+}
+
 .pacifico-text {
   font-family: 'Pacifico', cursive;
 }
@@ -91,10 +95,18 @@ img{
 }
 /*Contact page Begins*/
 h2{
+  margin-top: 100px;
   color: white;
 }
 .contact{
+  margin-top: 50px;
   color: white;
   font-size: 20px;
 }
 /*Footer starts here*/
+.fa a{
+  color: white;
+}
+footer{
+  text-align: center;
+}
