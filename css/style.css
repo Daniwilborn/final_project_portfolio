@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Taviraj');
 
-@media screen and (min-width: 700px) {
-  h1 {font-size: 40px
-
+@media screen and (max-width: 700px) {
+   body .container-fluid .row h1{
+     font-size: 35px;
   }
 }
 
