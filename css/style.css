@@ -2,6 +2,16 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Taviraj');
 
+@media screen and (min-width: 700px) {
+  .col-md-6 {
+    height: 1000px;
+  }
+}
+
+.background-image{
+  min-height: 100vh;
+}
+
 .pacifico-text {
   font-family: 'Pacifico', cursive;
 }
@@ -10,7 +20,7 @@
 }
 
 /*Header*/
-h1 {
+h1{
   font-size: 4em;
   color: white;
 }
@@ -82,4 +92,21 @@ img{
 }
 .panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body{
   border: none;
+}
+/*Contact page Begins*/
+h2{
+  margin-top: 100px;
+  color: white;
+}
+.contact{
+  margin-top: 50px;
+  color: white;
+  font-size: 20px;
+}
+/*Footer starts here*/
+.fa a{
+  color: white;
+}
+footer{
+  text-align: center;
 }
